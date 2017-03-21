@@ -9,3 +9,6 @@ message-backend:
 	php yii message backend/messages/config.php
 message:
 	make message-frontend && make message-backend
+db-migrate:
+	php yii migrate/up --migrationPath=@vendor/dektrium/yii2-user/migrations && \
+	php yii migrate/up

@@ -21,6 +21,12 @@ Features for implementation:
 - catalog (taxonomies, filters etc.)
 - multi site
 
+PACKAGES
+--------
+
+- [dektrium/yii2-user](https://github.com/dektrium/yii2-user)
+
+
 DIRECTORY STRUCTURE
 -------------------
 
@@ -65,5 +71,6 @@ INSTALLATION
 
 - At first please check [official documentation for advance template installation](https://github.com/yiisoft/yii2-app-advanced/blob/master/docs/guide/start-installation.md)
 
+- Run migration for all needed modules and application migrations (or `make db-migrate`)
 
 to be continued ..

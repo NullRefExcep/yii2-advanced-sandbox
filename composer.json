@@ -12,14 +12,15 @@
         "irc": "irc://irc.freenode.net/yii",
         "source": "https://github.com/yiisoft/yii2"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "~2.0.6",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
         "dektrium/yii2-user": "^0.9.12",
-        "nullref/yii2-useful": "^0.0.3"
+        "nullref/yii2-dialog": "dev-master",
+        "rmrevin/yii2-fontawesome": "^2.17"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",

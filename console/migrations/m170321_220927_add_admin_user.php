@@ -19,7 +19,7 @@ class m170321_220927_add_admin_user extends Migration
         ]);
 
         if ($user->create()) {
-            Console::output(Yii::t('admin', 'User has been created'));
+            Console::output('User has been created');
 
             Console::output("Username: 'admin'");
             Console::output("Password: 'password'");

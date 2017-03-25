@@ -11,6 +11,7 @@ message:
 	make message-frontend && make message-backend
 
 db-migrate:
+	php yii migrate/up --migrationPath=@vendor/nullref/yii2-dialog/src/migrations && \
 	php yii migrate/up --migrationPath=@vendor/dektrium/yii2-user/migrations && \
 	php yii migrate/up
 

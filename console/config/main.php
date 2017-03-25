@@ -17,6 +17,17 @@ return [
             'namespace' => 'common\fixtures',
           ],
     ],
+    'modules' => [
+        'dialog' => [
+            'class' => 'nullref\dialog\Module',
+            'components' => [
+                'userManager' => [
+                    'class' => 'nullref\dialog\components\UserManager',
+                    'modelClass' => 'common\models\User',
+                ],
+            ],
+        ],
+    ],
     'components' => [
         'log' => [
             'targets' => [

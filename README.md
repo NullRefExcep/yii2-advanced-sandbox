@@ -25,6 +25,7 @@ PACKAGES
 --------
 
 - [dektrium/yii2-user](https://github.com/dektrium/yii2-user)
+- [nullref/yii2-dialog](https://github.com/NullRefExcep/yii2-dialog)
 
 
 DIRECTORY STRUCTURE
